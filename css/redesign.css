@@ -1,0 +1,63 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+}
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 20px;
+}
+.btn {
+    color: #fff;
+    background-color: rgb(83, 37, 127);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    max-width: 300px;
+}
+.hero {
+    height: 400px;
+    background-image: url(../images/hero.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero h1 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(83, 37, 127);
+    color: #fff;
+    padding: 20px;
+    font-size: 2.2rem;
+}
+.hero h1 span {
+    font-size: 1.6rem;
+}
+.top-tagline {
+    text-align: center;
+}
+.top-tagline ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.top-tagline li a {
+    color: #515151;
+    border: 1px solid #515151;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.top-tagline li a:hover {
+    color: #fff;
+    background-color: #515151;
+}
