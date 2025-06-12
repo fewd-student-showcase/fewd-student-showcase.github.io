@@ -9,6 +9,9 @@ body {
     margin: auto;
     padding: 20px;
 }
+img {
+    width: 100%;
+}
 .btn {
     color: #fff;
     background-color: rgb(83, 37, 127);
@@ -45,19 +48,22 @@ header img {
 .top-tagline {
     text-align: center;
 }
-.top-tagline ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+.blocks-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
-.top-tagline li a {
-    color: #515151;
-    border: 1px solid #515151;
-    padding: 5px 10px;
-    margin: 5px;
+.block {
+    transition: all 0.2s ease;
+}
+.block:hover {
+    transform: scale(1.1);
+}
+.block a {
+    text-align: center;
+    color: #000;
     text-decoration: none;
 }
-.top-tagline li a:hover {
-    color: #fff;
-    background-color: #515151;
+.block img {
+    border-radius: 10px;
+    border: 1px solid #efefef;
 }
