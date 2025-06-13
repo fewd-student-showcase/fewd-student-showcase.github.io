@@ -33,7 +33,7 @@ header img {
     background-position: center;
     position: relative;
     background-color: #efefef;
-    background-image:url(/images/hero.webp)
+    background-image:url(../images/hero1.webp)
 }
 h1 {
     font-size: 3.4rem;
